@@ -1,0 +1,141 @@
+*{
+  margin: 0px;
+  padding: 0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+}
+
+.cointainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+
+}
+.nav{
+    height: 100%;
+    border: 3px solid black;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(56, 216, 155);
+
+} 
+.home{
+    border: 3px solid black;
+    width: 75%;
+    background-color:  #474e5d;
+    color: white;
+}
+.about-section{
+    width: 75%;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cnavbar-nav{
+    text-align: center;
+}
+
+
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 5px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 5px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  
+}
+
+.container {
+  padding: 0 16px;
+} 
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+.row1{
+    display: flex;
+    border: 2px solid black;
+   width: 100%;
+   /* heightpx; */
+}
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 80%;
+    display: block;
+  }
+}
+#o{
+width: 75%;
+}
+
+
+
+
+
+.contact-wrap{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+.contact-form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.square-button:hover{
+background-color: red;
+}
+button:hover{
+    background-color: red;
+}
