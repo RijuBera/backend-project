@@ -28,8 +28,8 @@
 .home{
     border: 3px solid black;
     width: 75%;
-    background-color:  #474e5d;
-    color: white;
+    background-color: white;
+  
 }
 .about-section{
     width: 75%;
@@ -65,8 +65,8 @@
 .about-section {
   padding: 5px;
   text-align: center;
-  background-color: #474e5d;
-  color: white;
+  background-color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   gap: 100px;
